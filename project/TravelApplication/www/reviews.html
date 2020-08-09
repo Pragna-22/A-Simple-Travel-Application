@@ -1,0 +1,133 @@
+<html>
+<head>
+<title>User Reviews Design</title>   
+<meta name="viewport" content="width=device-width" initial-scale="1.0">
+ <link href="css/index.css" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <section class="UserReviews">
+            <div class="container">
+                <h1>User Reviews</h1>
+                        <div class="row">
+                            <div class="col-md-4 text-center">
+                                <div class="profile">
+                                <img src="img/images/user%203.jpg" class="user" align="left" width="125px" height="125px">
+                                <blockquote>I want to share my memorable experience with this app and would love to recommend people for the same. The flight tickets were so cheap other than any other websites and friendly support from Customer care.Best trip planner.</blockquote> 
+                                <h3>Avinash Patel</h3><span>Research Scientist and Anesthesiologist</span>
+                                </div> 
+                            </div> 
+                                <div class="col-md-4 text-center">
+                                <div class="profile">
+                                <img src="img/images/user%201.jpg" class="user">
+                                <blockquote>Provide's great service by booking most affordable tour packages.Helped me get great deals and offers for various destinations.They have a dedicated team that provides great quality of service.Would recommend it to everyone.</blockquote> 
+                                <h3>Abhimanyu K</h3><span>Social Worker and Co-founder @ XYZ</span>
+                                </div> 
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="profile">
+                                <img src="img/images/user%202.jpg" class="user">
+                                <blockquote>Great App! Facilities provided are very good.Good Service and features, would recommend it to all.User friendly and authentic customer service which helped me very much.Booking of hotels and flights has been made easy and efficient as well.</blockquote> 
+                                <h3>Bharat Kumar</h3><span>Doctor</span>
+                                </div>
+                            </div>
+                </div>
+        </div>
+       </section>                     
+</body>
+    <style type="text/css">
+body
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.UserReviews
+{
+    margin: 50px auto;
+}
+.UserReviews h1
+{
+    text-align: center;
+    font-weight: bold;
+    color: #900;
+    padding-bottom: 10px;
+    text-transform:uppercase;
+}
+.UserReviews h1::after{
+    background:#900;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+    
+}
+.UserReviews .top
+{
+    margin-top: 30px;
+}
+.col-md-4
+{
+    margin: 40px auto;
+}
+.profile
+{
+   padding: 70px 10px 10px;
+    background-color: #efefef;
+}
+.profile img
+{
+    top: -60px;
+    position: absolute;
+    left: calc(50% - 60px);
+    border: 10px solid white;
+}
+.user
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;  
+}
+.profile h3
+{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #900;
+}
+span
+{
+    font-size: 12px;
+    color: #900;
+}
+blockquote{
+    font-size: 16px;
+    line-height: 30px;
+    
+}
+blockquote::before{
+    content: '\201c';
+    font-size: 50px;
+    position: relative;
+    color: #900;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+blockquote::after{
+    content: '\201d';
+    font-size: 50px;
+    position: relative;
+    color: #900;
+    line-height: 20px;
+    bottom: -15px;
+    left: 5px;
+}
+.profile:hover{
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+</html>
+
+
+
